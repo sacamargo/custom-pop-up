@@ -1,0 +1,29 @@
+.popUpContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.popUp {
+  display         : inline-block;
+  background-color: white;
+  padding         : 10px;
+  border          : 1px solid #ccc;
+  border-radius   : 8px;
+  max-width       : 300px;
+  position        : relative;
+}
+
+.closeButton {
+  position        : absolute;
+  top             : 5px;
+  right           : 5px;
+  background-color: transparent;
+  border          : none;
+  font-size       : 16px;
+  cursor          : pointer;
+}
+
+.popUpText {
+  color    : #333;
+  font-size: 1rem;
+}

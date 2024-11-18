@@ -1,0 +1,8 @@
+{
+  "popup-custom": {
+    "component": "CustomPopUp",
+    "composition": "children",
+    "render": "client",
+    "allowed": "*"
+  }
+}
