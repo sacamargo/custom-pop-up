@@ -1,0 +1,22 @@
+query sku($identifier: SKUUniqueIdentifier) {
+  sku(identifier: $identifier)
+  @context(provider: "vtex.catalog-graphql") {
+  name,
+  	images{
+    	id,
+    	text,
+      url
+  	},
+  	specifications{
+    	product{
+      	id
+    	}
+  	}
+  	product{
+    	linkId,
+    	department{
+      	name
+    	}
+    }
+  }
+}

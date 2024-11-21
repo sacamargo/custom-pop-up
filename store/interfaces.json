@@ -4,5 +4,10 @@
     "composition": "children",
     "render": "client",
     "allowed": "*"
+  },
+  "quick-order": {
+    "component": "QuickOrder",
+    "render": "client",
+    "composition": "children"
   }
 }
